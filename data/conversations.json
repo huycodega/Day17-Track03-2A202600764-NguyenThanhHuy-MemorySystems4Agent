@@ -1,9 +1,9 @@
-[
+﻿[
   {
     "id": "conv-01",
-    "user_id": "dungct",
+    "user_id": "2A202600764-NguyenThanhHuy",
     "turns": [
-      "Chào bạn, mình tên là DũngCT.",
+      "Chào bạn, mình tên là NguyenThanhHuy.",
       "Mình ở Đà Nẵng và đang làm backend engineer cho startup AI.",
       "Mình thích Python, AI ứng dụng và cà phê sữa đá.",
       "Đồ uống yêu thích là cà phê sữa đá.",
@@ -17,13 +17,13 @@
     "recall_questions": [
       {
         "question": "Mình tên gì và đồ uống yêu thích là gì?",
-        "expected_contains": ["DũngCT", "cà phê sữa đá"]
+        "expected_contains": ["NguyenThanhHuy", "cà phê sữa đá"]
       }
     ]
   },
   {
     "id": "conv-02",
-    "user_id": "dungct",
+    "user_id": "2A202600764-NguyenThanhHuy",
     "turns": [
       "Hôm nay mình quay lại sau một buổi họp dài.",
       "Bạn có thể nhắc lại tên mình không?",
@@ -43,13 +43,13 @@
       },
       {
         "question": "Tên mình là gì và mình thích kiểu trả lời như thế nào?",
-        "expected_contains": ["DũngCT", "ngắn gọn"]
+        "expected_contains": ["NguyenThanhHuy", "ngắn gọn"]
       }
     ]
   },
   {
     "id": "conv-03",
-    "user_id": "dungct",
+    "user_id": "2A202600764-NguyenThanhHuy",
     "turns": [
       "Mình đang viết code Python cho benchmark agent.",
       "À, mình đính chính một chút: giờ mình đang ở Huế chứ không còn ở Đà Nẵng mỗi ngày nữa.",
@@ -71,7 +71,7 @@
   },
   {
     "id": "conv-04",
-    "user_id": "dungct",
+    "user_id": "2A202600764-NguyenThanhHuy",
     "turns": [
       "Ngoài kỹ thuật ra thì mình còn thích chạy bộ và nghe lo-fi buổi tối.",
       "Món ăn yêu thích là mì Quảng.",
@@ -93,9 +93,9 @@
   },
   {
     "id": "conv-05",
-    "user_id": "dungct",
+    "user_id": "2A202600764-NguyenThanhHuy",
     "turns": [
-      "Bạn có biết DũngCT không?",
+      "Bạn có biết NguyenThanhHuy không?",
       "Nếu biết thì thử mô tả ngắn gọn mình là ai dựa trên những gì đã nhớ.",
       "Mình đang quan tâm nhiều đến Python, AI agent và benchmark memory.",
       "Mình hay dùng ví dụ thực tế từ startup hoặc side project.",
@@ -108,14 +108,14 @@
     ],
     "recall_questions": [
       {
-        "question": "Bạn biết DũngCT là ai không? Hãy nhắc ngắn gọn tên và mối quan tâm chính của mình.",
-        "expected_contains": ["DũngCT", "Python", "AI"]
+        "question": "Bạn biết NguyenThanhHuy là ai không? Hãy nhắc ngắn gọn tên và mối quan tâm chính của mình.",
+        "expected_contains": ["NguyenThanhHuy", "Python", "AI"]
       }
     ]
   },
   {
     "id": "conv-06",
-    "user_id": "dungct",
+    "user_id": "2A202600764-NguyenThanhHuy",
     "turns": [
       "Mình đính chính thêm một thông tin nghề nghiệp nhé.",
       "Mình không còn làm backend engineer nữa, giờ chuyển sang MLOps engineer.",
@@ -141,7 +141,7 @@
   },
   {
     "id": "conv-07",
-    "user_id": "dungct",
+    "user_id": "2A202600764-NguyenThanhHuy",
     "turns": [
       "Sáng nay mình tiếp tục làm sạch benchmark data.",
       "Mình muốn mỗi conversation có ít nhất 10 lượt và nghe tự nhiên hơn.",
@@ -163,7 +163,7 @@
   },
   {
     "id": "conv-08",
-    "user_id": "dungct",
+    "user_id": "2A202600764-NguyenThanhHuy",
     "turns": [
       "Hôm nay mình làm việc ở quán cà phê quen gần sông Hương.",
       "Mình vẫn uống cà phê sữa đá nhưng đang cố giảm xuống còn một ly mỗi ngày.",
@@ -189,7 +189,7 @@
   },
   {
     "id": "conv-09",
-    "user_id": "dungct",
+    "user_id": "2A202600764-NguyenThanhHuy",
     "turns": [
       "Mình vừa thử benchmark lần đầu và thấy baseline quên mình rất nhanh.",
       "Điều đó đúng như mong đợi vì nó chỉ có within-session memory.",
@@ -205,13 +205,13 @@
     "recall_questions": [
       {
         "question": "Tóm tắt ngắn về mình: tên, nghề nghiệp hiện tại và hai mối quan tâm kỹ thuật chính.",
-        "expected_contains": ["DũngCT", "MLOps engineer", "Python", "AI"]
+        "expected_contains": ["NguyenThanhHuy", "MLOps engineer", "Python", "AI"]
       }
     ]
   },
   {
     "id": "conv-10",
-    "user_id": "dungct",
+    "user_id": "2A202600764-NguyenThanhHuy",
     "turns": [
       "Đây là cuộc cuối trong benchmark mẫu.",
       "Mình muốn kiểm tra xem agent có giữ được thông tin ổn định sau nhiều phiên không.",
@@ -228,11 +228,11 @@
     "recall_questions": [
       {
         "question": "Nhắc lại giúp mình: tên, nơi ở hiện tại, nghề nghiệp hiện tại, đồ uống yêu thích và style trả lời mình thích.",
-        "expected_contains": ["DũngCT", "Huế", "MLOps engineer", "cà phê sữa đá", "ngắn gọn"]
+        "expected_contains": ["NguyenThanhHuy", "Huế", "MLOps engineer", "cà phê sữa đá", "ngắn gọn"]
       },
       {
         "question": "Nhắc lại giúp mình: tên, món ăn yêu thích và mình nuôi con gì.",
-        "expected_contains": ["DũngCT", "mì Quảng", "corgi"]
+        "expected_contains": ["NguyenThanhHuy", "mì Quảng", "corgi"]
       }
     ]
   }
